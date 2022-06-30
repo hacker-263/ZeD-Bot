@@ -6957,8 +6957,8 @@ case 'listmenu': case 'list': {
     
     let Levele2 = level.getLevelingLevel(m.sender, _level)
     let sections = []   
-    let listmenu = [`allmenu`,`mainmenu`,`groupmenu`,`expmenu`,`downloadmenu`,`searchingmenu`,`randommenu`,`textpromenu`,`photooxymenu`,`funmenu`,`imageeffectmenu`,`ephotomenu`,`primbonmenu`,`convertmenu`,`databasemenu`,`photofiltermenu`,`anonymousmenu`,`islammenu`,`voicemenu`,`toolsmenu`,`internetmenu`,`shortmenu`,`ownermenu`,`nsfwmenu`,`donasi`]
-    let listmenuu = [`𝗔𝗟𝗟 𝗠𝗘𝗡𝗨`,`𝗠𝗔𝗜𝗡 𝗠𝗘𝗡𝗨`,`𝗚𝗥𝗢𝗨𝗣 𝗠𝗘𝗡𝗨`,`𝗫𝗣 𝗠𝗘𝗡𝗨`,`𝗗𝗢𝗪𝗡𝗟𝗢𝗔𝗗 𝗠𝗘𝗡𝗨`,`𝗦𝗘𝗔𝗥𝗖𝗛 𝗠𝗘𝗡𝗨`,`𝗥𝗔𝗡𝗗𝗢𝗠 𝗠𝗘𝗡𝗨`,`𝗧𝗘𝗫𝗧𝗣𝗥𝗢 𝗠𝗘𝗡𝗨`,`𝗣𝗛𝗢𝗧𝗢𝗢𝗫𝗬`,`𝗙𝗨𝗡 𝗠𝗘𝗡𝗨`,`𝗜𝗠𝗔𝗚𝗘 𝗘𝗙𝗙𝗘𝗖𝗧`,`𝗘𝗣𝗛𝗢𝗧𝗢 𝗠𝗘𝗡𝗨`,`𝗣𝗥𝗜𝗠𝗕𝗢𝗡 𝗠𝗘𝗡𝗨`,`𝗖𝗢𝗡𝗩𝗘𝗥𝗧 𝗠𝗘𝗡𝗨`,`𝗗𝗔𝗧𝗔𝗕𝗔𝗦𝗘 𝗠𝗘𝗡𝗨`,`𝗣𝗛𝗢𝗧𝗢 𝗙𝗜𝗟𝗧𝗘𝗥`,`𝗔𝗡𝗢𝗡𝗬𝗠𝗢𝗨𝗦 𝗠𝗘𝗡𝗨`,`𝗜𝗦𝗟𝗔𝗠 𝗠𝗘𝗡𝗨`,`𝗩𝗢𝗜𝗖𝗘 𝗠𝗘𝗡𝗨`,`𝗧𝗢𝗢𝗟𝗦 𝗠𝗘𝗡𝗨`,`𝗜𝗡𝗧𝗘𝗥𝗡𝗘𝗧 𝗠𝗘𝗡𝗨`,`𝗦𝗛𝗢𝗥𝗧 𝗠𝗘𝗡𝗨`,`𝗢𝗪𝗡𝗘𝗥 𝗠𝗘𝗡𝗨`,`𝗠𝗘𝗡𝗨 𝗡𝗦𝗙𝗪`,`𝗗𝗢𝗡𝗔𝗧𝗘`]
+    let listmenu = [`allmenu`,`mainmenu`,`groupmenu`,`expmenu`,`downloadmenu`,`searchingmenu`,`randommenu`,`textpromenu`,`photooxymenu`,`funmenu`,`imageeffectmenu`,`ephotomenu`,`primbonmenu`,`convertmenu`,`databasemenu`,`photofiltermenu`,`anonymousmenu`,`voicemenu`,`toolsmenu`,`internetmenu`,`shortmenu`,`ownermenu`,`nsfwmenu`,`donasi`]
+    let listmenuu = [`𝗔𝗟𝗟 𝗠𝗘𝗡𝗨`,`𝗠𝗔𝗜𝗡 𝗠𝗘𝗡𝗨`,`𝗚𝗥𝗢𝗨𝗣 𝗠𝗘𝗡𝗨`,`𝗫𝗣 𝗠𝗘𝗡𝗨`,`𝗗𝗢𝗪𝗡𝗟𝗢𝗔𝗗 𝗠𝗘𝗡𝗨`,`𝗦𝗘𝗔𝗥𝗖𝗛 𝗠𝗘𝗡𝗨`,`𝗥𝗔𝗡𝗗𝗢𝗠 𝗠𝗘𝗡𝗨`,`𝗧𝗘𝗫𝗧𝗣𝗥𝗢 𝗠𝗘𝗡𝗨`,`𝗣𝗛𝗢𝗧𝗢𝗢𝗫𝗬`,`𝗙𝗨𝗡 𝗠𝗘𝗡𝗨`,`𝗜𝗠𝗔𝗚𝗘 𝗘𝗙𝗙𝗘𝗖𝗧`,`𝗘𝗣𝗛𝗢𝗧𝗢 𝗠𝗘𝗡𝗨`,`𝗣𝗥𝗜𝗠𝗕𝗢𝗡 𝗠𝗘𝗡𝗨`,`𝗖𝗢𝗡𝗩𝗘𝗥𝗧 𝗠𝗘𝗡𝗨`,`𝗗𝗔𝗧𝗔𝗕𝗔𝗦𝗘 𝗠𝗘𝗡𝗨`,`𝗣𝗛𝗢𝗧𝗢 𝗙𝗜𝗟𝗧𝗘𝗥`,`𝗔𝗡𝗢𝗡𝗬𝗠𝗢𝗨𝗦 𝗠𝗘𝗡𝗨`,`𝗩𝗢𝗜𝗖𝗘 𝗠𝗘𝗡𝗨`,`𝗧𝗢𝗢𝗟𝗦 𝗠𝗘𝗡𝗨`,`𝗜𝗡𝗧𝗘𝗥𝗡𝗘𝗧 𝗠𝗘𝗡𝗨`,`𝗦𝗛𝗢𝗥𝗧 𝗠𝗘𝗡𝗨`,`𝗢𝗪𝗡𝗘𝗥 𝗠𝗘𝗡𝗨`,`𝗠𝗘𝗡𝗨 𝗡𝗦𝗙𝗪`,`𝗗𝗢𝗡𝗔𝗧𝗘`]
             
             let nombor = 1
             let startnum = 0
@@ -7340,20 +7340,6 @@ anu = `*✧ᴜᴘᴛɪᴍᴇ: ${runtime(process.uptime())}*
 ┃⬤${prefix}magernulis5
 ┃⬤${prefix}magernulis6
 ┗━━━━━━━━━━━━⦿
-
-
-┏━❰ *ISLAMIC MENU* ❱
-┃⬤${prefix}listsurah
-┃⬤${prefix}tafsirsurah
-┃⬤${prefix}iqra
-┃⬤${prefix}hadist
-┃⬤${prefix}alquran
-┃⬤${prefix}juzamma
-┃⬤${prefix}jadwalsholat
-┃⬤${prefix}alquran2
-┃⬤${prefix}kisahnabi
-┃⬤${prefix}alquranaudio
-┗━━━━━━━━━━⦿
 
 
 ┏━❰ *VOICE-CHANGER* ❱
